@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); 
+/* font-family: 'Roboto', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300&display=swap');
+/* font-family: 'IBM Plex Sans', sans-serif; */
+
+
+/* Carrusel */
+.slick-carousel img {
+
+    display: block;
+    margin: 0 auto;
+
+    height: 400px;
+    width: 700px;
+}
+
+/* Resumen */
+.resumen img {
+    display: block;
+    margin: 0 auto;
+    
+    height: 370px;
+    width: 680px;
+}
+
+.flex-container-resumen {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+
+.flex-container-resumen h1 {
+
+    font-family: 'Roboto', sans-serif;
+    color: rgb(44, 43, 136);
+}
+  
+.flex-container-resumen p{
+
+    font-size: 15px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: rgb(143, 132, 132);
+
+}
+  .flex-item-left-resumen {
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  .flex-item-right-resumen {
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  /* Formulacion del problema */
+
+  .fp h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(44, 43, 136);
+  }
+
+  .fp p {
+
+    text-align: center;
+    font-size: 15px;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+    color: rgb(143, 132, 132);
+  }
+
+  .fp img{
+
+    display: block;
+    margin: 0 auto;
+    
+    height: 370px;
+    width: 680px;
+  }
+
+  /* Antecendentes */
+  .ante h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(44, 43, 136);
+  }
+
+  .ante p {
+
+    text-align: center;
+    font-size: 15px;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+    color: rgb(143, 132, 132);
+  }
+
+  .ante img{
+
+    display: block;
+    margin: 0 auto;
+    
+    height: 370px;
+    width: 680px;
+  }
+
+  /* Antecedentes 2 */
+  .flex-container-ante {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .ante2 h4{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(44, 43, 136);
+  }
+
+  .ante2 p{
+    font-size: 14px;
+    text-align: justify;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: rgb(143, 132, 132);
+  }
+  
+  .html {
+    padding: 10px;
+    flex: 50%;
+    
+  }
+
+  .react{
+    padding: 10px;
+    flex: 50%;
+  }
+
+  .ia{
+    padding: 10px;
+    flex: 50%;
+  }
+
+  .machine{
+    padding: 10px;
+    flex: 50%;
+  }
+  
+ .ante2 img{
+
+    display: block;
+    margin: 0 auto;
+
+    height: 200px;
+ }
+  
+ .justi h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(44, 43, 136);
+ }
+
+ .justi p{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+    color: rgb(143, 132, 132);
+ }
+
+ /* Objetivos */
+ .flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item-left {
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-right {
+
+  padding: 10px;
+  flex: 50%;
+}
+
+
+.obj h1 {
+
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(44, 43, 136);
+
+}
+
+.obj ul {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+    color: rgb(143, 132, 132);
+}
+
+/* Metas */
+.metas h1 {
+
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(44, 43, 136);
+
+}
+
+.metas p {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+    color: rgb(143, 132, 132);
+}
+
+/* Impacto a la solución */
+.impacto h1 {
+
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(44, 43, 136);
+
+}
+
+.impacto p {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+    color: rgb(143, 132, 132);
+}
+
+/* Metodos */
+.flex-container-metodos{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .m1{
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  .m2 {
+    padding: 10px;
+    flex: 50%;
+  }
+
+  .m3 {
+    padding: 10px;
+    flex: 50%;
+  }
+
+
+  .metodos h4 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(44, 43, 136);
+  }
+
+  .metodos p {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+    color: rgb(143, 132, 132);
+  }
+  
+
+  .metodos li{
+    text-align: left;
+    font-size: 15px;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+    color: rgb(143, 132, 132);
+  }
+
+  /* Programa */
+
+  .programa h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(44, 43, 136);
+  }
+
+  .programa p {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+    color: rgb(143, 132, 132);
+  }
+  
+  .programa img{
+    display: block;
+    margin: 0 auto;
+    
+    height: 400px;
+
+
+  }
+
+  /* Footer */
+  .footer-dark {
+    padding:50px 0;
+    color:#f0f9ff;
+    background-color:#282d32;
+  }
+  
+  .footer-dark h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+  }
+  
+  .footer-dark ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+  .footer-dark ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.6;
+  }
+  
+  .footer-dark ul a:hover {
+    opacity:0.8;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+  
+  .footer-dark .item.text {
+    margin-bottom:36px;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item.text {
+      margin-bottom:0;
+    }
+  }
+  
+  .footer-dark .item.text p {
+    opacity:0.6;
+    margin-bottom:0;
+  }
+  
+  .footer-dark .item.social {
+    text-align:center;
+  }
+  
+  @media (max-width:991px) {
+    .footer-dark .item.social {
+      text-align:center;
+      margin-top:20px;
+    }
+  }
+  
+  .footer-dark .item.social > a {
+    font-size:20px;
+    width:36px;
+    height:36px;
+    line-height:36px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+    margin:0 8px;
+    color:#fff;
+    opacity:0.75;
+  }
+  
+  .footer-dark .item.social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-dark .copyright {
+    text-align:center;
+    padding-top:24px;
+    opacity:0.3;
+    font-size:13px;
+    margin-bottom:0;
+  }
+  
